@@ -14,7 +14,7 @@ public class PetGui extends Application {
     private Canvas canvas;
     private GraphicsContext gc;
     private PetController controller;
-    Image petImage = new Image("pirkka.PNG", 100, 100, false, false);
+    Image petImage = new Image("chill.PNG", 100, 100, false, false);
 
     public void init() {
         controller = new PetController(this);
